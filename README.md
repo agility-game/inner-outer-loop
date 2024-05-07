@@ -1,7 +1,9 @@
 inner-outer-loop
 # Inner Outer Loop
 
-Based on "ABC" at https://www.abc.com/
+Based on "Docker App Development Workflow" at https://docs.microsoft.com/en-us/dotnet/architecture/microservices/docker-application-development-process/docker-app-development-workflow
+
+Based on "Docker Application Outer Loop DeveOps Workflow" at https://docs.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/docker-devops-workflow/docker-application-outer-loop-devops-workflow
 
 ## 100 - Introduction
 
