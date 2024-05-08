@@ -6,10 +6,10 @@ Now that we have defined the services in the docker-compose files, we can run th
 $ docker-compose --file docker-compose.dev.yml --project-name agility-game-home-dev up --build -d 
 ```
 
-The above command will start all service contained in the docker-compose file (i.e. ```gateway``` and ```webui```).
-
 For running the services in ```production``` execute:
 
 ```
 $ docker-compose --file docker-compose.prod.yml --project-name agility-game-home-prod up --build -d 
 ```
+
+The above command will start all service contained in the docker-compose file (i.e. ```gateway``` and ```webui```).
