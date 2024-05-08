@@ -172,7 +172,26 @@ describe('files', function () {
 ```
 test.js
 
+We can first try our tests and run them in our local development container. You can use the script alias we've added above to run the tests; simply run ```npm run mocha``` inside the container. The output should look like this:
 
+```
+root@514657c1a1fe:/project# npm run mocha
 
+> agility-game-home@1.0.0 mocha
+> npx mocha
+
+  files
+    export
+      ✔ should export pdf
+      ✔ should export html
+      ✔ should export yml
+      ✔ should export text
+
+  4 passing (5ms)
+
+root@514657c1a1fe:/project#
+```
+
+## 300 - Running the Tests from GitLab CI/CD
 
 More
