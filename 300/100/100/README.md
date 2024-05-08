@@ -18,5 +18,9 @@ tasks:
 ```
 .gitpod.yml
 
+We base our GitHub repository content and structure on the [GitLab CI/CD test automation example](https://github.com/testmoapp/example-gitlab-automation). It is documented in the article [GitLab CI/CD Test Automation Pipeline & Reporting](https://www.testmo.com/guides/gitlab-ci-test-automation). But we will document it here for our specific case.
+
+
+
 
 More
