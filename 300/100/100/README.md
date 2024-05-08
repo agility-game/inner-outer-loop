@@ -282,6 +282,8 @@ We are subscribed to **Testmo** for Agility Game for a free trial, see https://a
 
 We prefer using **Zebrunner** as it has a Free tier for 5 users and unlimited projects. It is therefore a more economic solution than Testmo, which offers as the least expensive a Team tier at $99/month or BrowserStack.
 
+Learn about Zebrunner by watching [Zebrunner Testing Platform: Collaborative environment for manual and automated testing](https://www.youtube.com/watch?v=-8iZ0sDmLuE).
+
 After logging in to Zebrunner, go to the Dashboard at https://agilitygame.zebrunner.com
 
 The below is based on "Connecting a Git repository" at https://zebrunner.com/documentation/guide/launchers/#connecting-a-git-repository
