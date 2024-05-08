@@ -5,7 +5,7 @@ Now that we have defined the services in the docker-compose files, we can run th
 First create any required networks for ```development```:
 
 ```
-$ docker network create -d gateway-dev
+$ docker network create gateway-dev
 ```
 
 Next start the services:
@@ -17,7 +17,7 @@ $ docker-compose --file docker-compose.dev.yml --project-name agility-game-home-
 Then, create any required networks for ```production```:
 
 ```
-$ docker network create -d gateway-prod
+$ docker network create gateway-prod
 ```
 
 For running the services in ```production``` execute:
