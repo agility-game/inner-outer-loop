@@ -274,17 +274,19 @@ test:
 
 ## 500 - Automation Reporting to Test Management
 
-We have successfully set up our GitLab CI pipeline to execute our automated tests. We can now also look at submitting and reporting our test results to a test management tool such as our [Testmo](https://www.testmo.com/) or [BrowserStack](https://www.browserstack.com/).
+We have successfully set up our GitLab CI pipeline to execute our automated tests. We can now also look at submitting and reporting our test results to a test management tool such as our [Testmo](https://www.testmo.com/) or [BrowserStack](https://www.browserstack.com/) or [Zebrunner](https://zebrunner.com/).
 
 By submitting the test results we can easily track and view all test results, make all tests accessible to the entire team, identify slow, failing or flaky tests and link test runs to milestones. 
 
 We are subscribed to **Testmo** for Agility Game for a free trial, see https://agility-game.testmo.net/ To learn about Testmo, watch https://www.testmo.com/videos
 
-We prefer using **BrowserStack** as it has a Free tier for 5 users and unlimited projects. It is therefore a more economic solution than Testmo, which offers as the least expensive a Team tier at $99/month.
+We prefer using **Zebrunner** as it has a Free tier for 5 users and unlimited projects. It is therefore a more economic solution than Testmo, which offers as the least expensive a Team tier at $99/month or BrowserStack.
 
-After logging in to BrowserStack, go to the Dashboard at https://live.browserstack.com/dashboard#!
+After logging in to Zebrunner, go to the Dashboard at https://agilitygame.zebrunner.com
 
-The following is based on "Integrate BrowserStack Automate with GitLab CI/CD" at https://www.browserstack.com/docs/automate/selenium/gitlab
+The below is based on "Connecting a Git repository" at https://zebrunner.com/documentation/guide/launchers/#connecting-a-git-repository
+
+
 
 
 
