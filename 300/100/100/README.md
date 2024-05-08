@@ -42,12 +42,27 @@ dev/docker-compose.yml
 
 We can then easily start our Docker container and run code inside it by using the ```docker compose``` command to launch a shell. We can then run any commands and start our tests inside the container **without affecting our main machine**:
 
+== EXECUTE THE FOLLOWING COMMANDS FROM WITHIN YOUR GITPOD WORKSPACE ==
+
 ```
-$ cd dev
-$ docker compose run node bash
-Creating dev_node_run ... done
-root@d433d79213d7:/project$ # in the container
+gitpod /workspace/home (main) $ cd dev
+gitpod /workspace/home/dev (main) $ docker compose run node bash
+[+] Creating 1/1
+ ✔ Network dev_default  Created                                                                                                               0.1s 
+[+] Running 9/9
+ ✔ node 8 layers [⣿⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                                                                                           29.7s 
+   ✔ bd73737482dd Pull complete                                                                                                               0.9s 
+   ✔ 6710592d62aa Pull complete                                                                                                               0.6s 
+   ✔ 75256935197e Pull complete                                                                                                               1.1s 
+   ✔ c1e5026c6457 Pull complete                                                                                                               3.7s 
+   ✔ f2e4b4cbd0b8 Pull complete                                                                                                               1.2s 
+   ✔ aa0a28bddc08 Pull complete                                                                                                               2.1s 
+   ✔ a43acb05766e Pull complete                                                                                                               1.6s 
+   ✔ 777f451f077e Pull complete                                                                                                               2.0s 
+root@514657c1a1fe:/project# 
 ```
+
+You are now inside your Docker container, containing your code, so any changes are not affecting your Gitpod environment.
 
 ## 200 - Setting Up Test Automation
 
