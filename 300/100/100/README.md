@@ -284,6 +284,8 @@ We prefer using **BrowserStack** as it has a Free tier for 5 users and unlimited
 
 After logging in to BrowserStack, go to the Dashboard at https://live.browserstack.com/dashboard#!
 
+The following is based on "Integrate BrowserStack Automate with GitLab CI/CD" at https://www.browserstack.com/docs/automate/selenium/gitlab
+
 
 
 More
