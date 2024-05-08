@@ -62,7 +62,30 @@ gitpod /workspace/home/dev (main) $ docker compose run node bash
 root@514657c1a1fe:/project# 
 ```
 
-You are now inside your Docker container, containing your code, so any changes are not affecting your Gitpod environment.
+You are now inside your Docker container (here: ```514657c1a1fe```), containing your code, so any changes are not affecting your Gitpod environment.
+
+To view the files and directories in the current location inside the Docker container, just type ```ls -la```:
+
+```
+root@514657c1a1fe:/project# ls -la
+total 80
+drwxr-xr-x  5 33333 33333  4096 May  7 12:42 .
+drwxr-xr-x  1 root  root     21 May  8 08:05 ..
+drwxr-xr-x  8 33333 33333  4096 May  8 08:22 .git
+-rw-r--r--  1 33333 33333  2047 May  7 12:42 .gitignore
+-rw-r--r--  1 33333 33333   275 May  7 12:42 .gitlab-ci.yml
+-rw-r--r--  1 33333 33333   396 May  7 12:42 .gitpod.yml
+-rw-r--r--  1 33333 33333  1069 May  7 12:42 LICENSE
+-rw-r--r--  1 33333 33333   190 May  7 12:43 README.md
+drwxr-xr-x  2 33333 33333    32 May  7 12:42 dev
+drwxr-xr-x 90 33333 33333  4096 May  7 12:42 node_modules
+-rw-r--r--  1 33333 33333 37243 May  7 12:42 package-lock.json
+-rw-r--r--  1 33333 33333   394 May  7 12:42 package.json
+-rw-r--r--  1 33333 33333   702 May  7 12:42 test.js
+root@514657c1a1fe:/project# 
+```
+
+
 
 ## 200 - Setting Up Test Automation
 
