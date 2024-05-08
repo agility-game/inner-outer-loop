@@ -2,7 +2,7 @@
 
 To create Images defined as Docker file(s), for the ```gateway``` service for ```development``` run:
 
-=== RUN BELOW COMMAND FROM WITHIN GITPOD, BUT NOT WITHIN THE DEV CONTAINER ===
+=== RUN BELOW COMMAND FROM WITHIN GITPOD, BUT NOT FROM WITHIN THE DEV CONTAINER ===
 
 ```
 gitpod /workspace/home/dev (main) $ cd ../gateway
@@ -39,7 +39,7 @@ gitpod /workspace/home/gateway (main) $
 
 And for the ```webui``` service for ```development``` run:
 
-=== RUN BELOW COMMAND FROM WITHIN GITPOD, BUT NOT WITHIN THE DEV CONTAINER ===
+=== RUN BELOW COMMAND FROM WITHIN GITPOD, BUT NOT FROM WITHIN THE DEV CONTAINER ===
 
 ```
 gitpod /workspace/home (main) $ cd webui
