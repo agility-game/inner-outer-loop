@@ -163,12 +163,7 @@ describe('files', function () {
         });
 
         it('should export text', function () {
-            // Fail in 50% of cases
-            if (Math.random() < 0.5) {
-                throw new Error('An exception occurred');
-            } else {
-                assert.isTrue(true);
-            }
+            assert.isTrue(true);
         });
     });
 	
@@ -202,8 +197,6 @@ root@514657c1a1fe:/project# npm run mocha
 > agility-game-home@1.0.0 mocha
 > npx mocha
 
-
-
   files
     export
       ✔ should export pdf
@@ -215,7 +208,6 @@ root@514657c1a1fe:/project# npm run mocha
       ✔ should import html
       ✔ should import yml
       ✔ should import text
-
 
   8 passing (8ms)
 
