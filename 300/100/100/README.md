@@ -141,6 +141,38 @@ We also want to make it easier to run our automated tests. For this we are addin
 ```
 package.json
 
+We also need an actual test suite for this example project. Mocha/Chai makes it easy to create some simple test cases. Just add a new ```test.js``` file and add some tests like shown in the example below.
+
+```
+// test.js
+import * as chai from 'chai';
+const assert = chai.assert;
+
+describe('files', function () {
+    describe('export', function () {
+        it('should export pdf', function () {
+            assert.isTrue(true);
+        });
+
+        it('should export html', function () {
+            assert.isTrue(true);
+        });
+
+        it('should export yml', function () {
+            assert.isTrue(true);
+        });
+
+        it('should export text', function () {
+            assert.isTrue(true);
+        });
+    });
+	
+	// [..]
+});
+```
+test.js
+
+
 
 
 More
