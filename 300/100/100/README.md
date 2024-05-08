@@ -282,6 +282,8 @@ We are subscribed to **Testmo** for Agility Game for a free trial, see https://a
 
 We prefer using **BrowserStack** as it has a Free tier for 5 users and unlimited projects. It is therefore a more economic solution than Testmo, which offers as the least expensive a Team tier at $99/month.
 
+After logging in to BrowserStack, go to the Dashboard at https://live.browserstack.com/dashboard#!
+
 
 
 More
