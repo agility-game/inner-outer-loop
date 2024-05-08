@@ -1,6 +1,6 @@
 # 300 - 3. Create Images defined as Docker file(s)
 
-To create Images defined as Docker file(s), for the ```gateway``` service run:
+To create Images defined as Docker file(s), for the ```gateway``` service for ```development``` run:
 
 ```
 $ cd gateway
@@ -10,7 +10,7 @@ REPOSITORY  TAG  IMAGE ID    CREATED   SIZE
 
 ```
 
-And for the ```webui``` service run:
+And for the ```webui``` service for ```development``` run:
 
 ```
 $ cd webui
