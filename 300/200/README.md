@@ -4,4 +4,26 @@ This presents an end-to-end depiction of the steps comprising the DevOps outer-l
 
 ![outer-loop](https://github.com/agility-game/inner-outer-loop/assets/1499433/ea6376ab-cef6-468e-ae5e-74a5ff4bc4f8)
 
-MORE
+## 100 - 1. Development Environment
+
+See [README.md](./100/README.md)
+
+## 200 - 2. Application Code Repository
+
+See [README.md](./200/README.md)
+
+## 300 - 3. Build, CI Integrate, Test
+
+See [README.md](./300/README.md)
+
+## 400 - 4. CD, Deploy
+
+See [README.md](./400/README.md)
+
+## 500 - 5. Run, Manage
+
+See [README.md](./500/README.md)
+
+## 600 - 6. Monitor and Diagnose
+
+See [README.md](./600/README.md)
