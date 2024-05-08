@@ -5,7 +5,8 @@ Now that we have defined the services in the docker-compose files, we can run th
 First create any required networks for ```development```:
 
 ```
-$ docker network create gateway-dev
+gitpod /workspace/home (main) $ docker network create gateway-dev
+s1202fa9facca11gsf7f1f253683c142055144fg9aa07bcedb3e1f1030ed4ed4
 ```
 
 Next start the services:
@@ -40,7 +41,8 @@ gitpod /workspace/home (main) $
 Then, create any required networks for ```production```:
 
 ```
-$ docker network create gateway-prod
+gitpod /workspace/home (main) $ docker network create gateway-prod
+e1202fa9facca11bad7f1f087183c142055144db7ee07bcedb3e1f1030ed4ef6
 ```
 
 For running the services in ```production``` execute:
