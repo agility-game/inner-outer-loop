@@ -216,4 +216,23 @@ root@514657c1a1fe:/project#
 
 ## 300 - Running the Tests from GitLab CI/CD
 
+We can now also tell GitLab to execute our automated tests as part of the CI pipeline. To do this, we just update our ```.gitlab-ci.yml``` file and add the following commands to the script section:
+
+```
+# .gitlab-ci.yml
+default:
+  image: node:19
+
+stages:
+  - test
+
+test:
+  stage: test
+  script:
+    - npm ci
+    - npm run mocha
+```
+.gitlab-ci.yml
+
+
 More
