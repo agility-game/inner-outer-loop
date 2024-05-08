@@ -48,7 +48,31 @@ e1202fa9facca11bad7f1f087183c142055144db7ee07bcedb3e1f1030ed4ef6
 For running the services in ```production``` execute:
 
 ```
-$ docker-compose --file docker-compose.prod.yml --project-name agility-game-home-prod up --build -d 
+gitpod /workspace/home (main) $ docker-compose --file docker-compose.prod.yml --project-name agility-game-home-prod up --build -d 
+[+] Building 0.9s (8/8) FINISHED                                                                                                   docker:default
+ => [webui internal] load build definition from Dockerfile.prod                                                                              0.0s
+ => => transferring dockerfile: 599B                                                                                                         0.0s
+ => [gateway internal] load metadata for docker.io/library/node:13.12.0-alpine                                                               0.8s
+ => [webui internal] load .dockerignore                                                                                                      0.0s
+ => => transferring context: 2B                                                                                                              0.0s
+ => CACHED [gateway 1/1] FROM docker.io/library/node:13.12.0-alpine@sha256:cc85e728fab3827ada20a181ba280cae1f8b625f256e2c86b9094d9bfe834766  0.0s
+ => [webui] exporting to image                                                                                                               0.0s
+ => => exporting layers                                                                                                                      0.0s
+ => => writing image sha256:fa0e9f0c54109daa0220f52f4ea066f89bc05e0084b1633134bf66637c6d936e                                                 0.0s
+ => => naming to docker.io/library/agility-game-home-prod-webui                                                                              0.0s
+ => [gateway internal] load build definition from Dockerfile.prod                                                                            0.0s
+ => => transferring dockerfile: 599B                                                                                                         0.0s
+ => [gateway internal] load .dockerignore                                                                                                    0.0s
+ => => transferring context: 2B                                                                                                              0.0s
+ => [gateway] exporting to image                                                                                                             0.0s
+ => => exporting layers                                                                                                                      0.0s
+ => => writing image sha256:3662c83aaf2691114ecf272d74b102049bc54934c2f308d367cd849d0c5eb6a8                                                 0.0s
+ => => naming to docker.io/library/agility-game-home-prod-gateway                                                                            0.0s
+[+] Running 3/3
+ ✔ Network agility-game-home-prod_default    Created                                                                                         0.1s 
+ ✔ Container agility-game-home-webui-prod    Started                                                                                         0.3s 
+ ✔ Container agility-game-home-gateway-prod  Started                                                                                         0.0s 
+gitpod /workspace/home (main) $  
 ```
 
 The above command will start all service contained in the docker-compose file (i.e. ```gateway``` and ```webui```).
