@@ -76,3 +76,13 @@ gitpod /workspace/home (main) $
 ```
 
 The above command will start all service contained in the docker-compose file (i.e. ```gateway``` and ```webui```).
+
+You can check it with running ```docker ps```:
+
+```
+gitpod /workspace/home (main) $ docker ps
+CONTAINER ID   IMAGE                            COMMAND                  CREATED              STATUS                         PORTS     NAMES
+5f9ccc6e2692   agility-game-home-prod-gateway   "docker-entrypoint.s…"   About a minute ago   Restarting (0) 9 seconds ago             agility-game-home-gateway-prod
+0a2ec4bcf12e   agility-game-home-dev-gateway    "docker-entrypoint.s…"   4 minutes ago        Restarting (0) 8 seconds ago             agility-game-home-gateway-dev
+gitpod /workspace/home (main) $
+```
