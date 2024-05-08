@@ -9,4 +9,5 @@ The Dockerfile is placed in the ```root / service``` folder of your application 
 
 For example, to host our **gateway** service, we add a Dockerfile to the directory ```/gateway/```. And to host our **webui** service, we add a Dockerfile to the directory ```/webui/```.
 
-Note that for ```development``` our Dockerfile is named **Dockerfile.dev**, whereas for ```production``` our Dockerfile is named **Dockerfile.prod**.
+Note that for ```development``` our Dockerfile is named **Dockerfile.dev**, whereas for ```production``` our Dockerfile is named **Dockerfile.prod**. It contains the commands that tell Docker how to set up and run your application or service in a container. You can manually create a Dockerfile in code and add it to your project along with your dependencies.
+
