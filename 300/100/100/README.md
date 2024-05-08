@@ -163,11 +163,33 @@ describe('files', function () {
         });
 
         it('should export text', function () {
-            assert.isTrue(true);
+            // Fail in 50% of cases
+            if (Math.random() < 0.5) {
+                throw new Error('An exception occurred');
+            } else {
+                assert.isTrue(true);
+            }
         });
     });
 	
-	// [..]
+    describe('import', function () {
+        it('should import pdf', function () {
+            assert.isTrue(true);
+        });
+
+        it('should import html', function () {
+            assert.isTrue(true);
+        });
+
+        it('should import yml', function () {
+            assert.isTrue(true);
+        });
+
+        it('should import text', function () {
+            assert.isTrue(true);
+        });
+    });
+
 });
 ```
 test.js
@@ -180,14 +202,22 @@ root@514657c1a1fe:/project# npm run mocha
 > agility-game-home@1.0.0 mocha
 > npx mocha
 
+
+
   files
     export
       ✔ should export pdf
       ✔ should export html
       ✔ should export yml
       ✔ should export text
+    import
+      ✔ should import pdf
+      ✔ should import html
+      ✔ should import yml
+      ✔ should import text
 
-  4 passing (5ms)
+
+  8 passing (8ms)
 
 root@514657c1a1fe:/project#
 ```
