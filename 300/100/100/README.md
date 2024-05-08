@@ -4,6 +4,8 @@ Developing a Docker application is similar to the way you develop an application
 
 For the purpose of a universal solution, we subscribe to **gitpod.io**, a service that lets us turn our source code into a Docker container hosted development environment. In our GitHub repositories - where we keep our source code - all one has to do is click the **[Gitpod icon] Open** button near the top of the page when at the start of repository, and gitpod will direct us to this development environment automatically (**note**: the name of the GitHub repository is extended by some random characters, e.g. ```https://agilitygame-home-t4ywwnrcngu.ws-eu111.gitpod.io/```). 
 
+== Gitpod let's you develop in a browser from anywhere, without the need to install any software ==
+
 Gitpod lets us specify the configuration of the development environment in a file, **.gitpod.yml**. For example:
 
 ```
