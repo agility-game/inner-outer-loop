@@ -3,7 +3,7 @@ inner-outer-loop
 
 Based on "Docker App Development Workflow" at https://docs.microsoft.com/en-us/dotnet/architecture/microservices/docker-application-development-process/docker-app-development-workflow
 
-Based on "Docker Application Outer Loop DeveOps Workflow" at https://docs.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/docker-devops-workflow/docker-application-outer-loop-devops-workflow
+Based on "Docker Application Outer Loop DevOps Workflow" at https://docs.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/docker-devops-workflow/docker-application-outer-loop-devops-workflow
 
 ## 100 - Introduction
 
